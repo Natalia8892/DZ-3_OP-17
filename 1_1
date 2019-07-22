@@ -1,0 +1,15 @@
+function newMass (a) {
+	if (!a) return a
+	return a[0].toUpperCase()+a.slice(1)
+	alert(a)
+}
+newMass(prompt("Введите строку",))
+
+
+
+
+function newUp (a) {
+	x=a[0].toUpperCase()+a.substring(1)
+	alert(x)
+}
+newUp(prompt("Vvedite stroku",))
